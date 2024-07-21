@@ -3,7 +3,24 @@ body{
     margin: 0;
     padding: 0;
 }
-
+/*------------Popup---------------------*/
+.pop-up{
+    background-color: #1D232C;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+.pop-up h2{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+.pop-up p{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
 /*---------- carousel-------------------*/
 .carousel-inner{
     height: 60vh;
@@ -196,6 +213,24 @@ body{
 /*--------------------------------Responsive-------------------------------*/
 
 @media screen and (max-width: 800px){
+
+    /*--------Pop-up Responsive----------*/
+    .pop-up{
+        background-color: #1D232C;
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        padding: 10px;
+    }
+    .pop-up h2{
+        font-size: 12px;
+    }
+    .pop-up p{
+        font-size: 12px;
+    }
+
+
+    /*----carousel Responsive------------*/
     .carousel-inner{
         height: auto;
     }
